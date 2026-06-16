@@ -300,7 +300,7 @@ export default function App() {
     { year: "2019–2023", title: "Engineering", sub: "Building technical foundations", detail: "Four years of problem-solving, late-night debugging, and learning to think systematically. Graduated with a deep love for technology and a hunger to apply it meaningfully.", icon: "⚙️" },
     { year: "2022–2023", title: "Research", sub: "First academic milestone", detail: "Contributed original research and got it published — discovering the thrill of adding something new to human knowledge. Taught me patience, rigor, and creative thinking.", icon: "📄" },
     { year: "2023", title: "AI Projects", sub: "Building real things", detail: "Built MindVarta — an AI-powered mental health assistant for students — and a multi-model sentiment analysis system. Technology meeting human impact.", icon: "🤖" },
-    { year: "2025", title: "MBA @ XIM", sub: "The next lap begins", detail: "Transitioning from building technology to leading with it. Joining XIM University to learn business strategy, leadership, and how to drive impact at scale.", icon: "🎓" },
+    { year: "2026", title: "MBA @ XIM", sub: "The next lap begins", detail: "Transitioning from building technology to leading with it. Joining XIM University to learn business strategy, leadership, and how to drive impact at scale.", icon: "🎓" },
   ];
 
   const projects = [
