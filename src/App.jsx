@@ -404,6 +404,12 @@ export default function App() {
         <Fade delay={0.5}>
           <HoverBtn onClick={() => sec("snapshot")}>Begin the Journey ↓</HoverBtn>
         </Fade>
+
+        <Fade delay={0.65}>
+          <div style={{ marginTop: 48, fontSize: 12, color: C.dim, letterSpacing: "0.05em" }}>
+            <span style={{ opacity: 0.7 }}>Pro tip: Try typing "thenextlap" for an easter egg 🏎️</span>
+          </div>
+        </Fade>
       </section>
 
       {/* SNAPSHOT */}
@@ -436,7 +442,7 @@ export default function App() {
             <div style={{ textAlign: "center", marginBottom: 60 }}>
               <SectionLabel>The Story</SectionLabel>
               <SectionTitle>The Journey So Far</SectionTitle>
-              <p style={{ color: C.dim, marginTop: 12, fontSize: 13 }}>Click any milestone — watch the car race there</p>
+              <p style={{ color: C.dim, marginTop: 12, fontSize: 13 }}>Click any milestone — watch the car race there<span style={{ display: "block", marginTop: 8, fontSize: 12, color: C.muted }}>💡 The car is interactive — tap the timeline to move it</span></p>
             </div>
           </Fade>
           <Fade delay={0.1}>
